@@ -1,0 +1,108 @@
+.Introduction1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Introduction_text{
+    color:white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 400px;
+    animation: fadein 2s;
+}
+.Introduction2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+}
+.Introduction2_header{
+    color: White;
+    font-size: 70px;;
+
+
+}
+.Introduction2_text{
+    color:white;
+    font-weight:500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Introduction3{
+    background-color: rgb(188, 46, 188);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    
+}
+.Introduction3_header{
+    font-size:70px;
+    text-align: center;
+}
+.Introduction3_header2{
+    margin-left: 40px;
+    font-size: 50px;;
+}
+.Introduction3_paragraph{
+    text-align: center;
+    font-size: 40px;
+    font-weight:400;
+    margin-left:30px;
+    margin-right: 30px;
+}
+.Introduction3_paragraph2{
+    font-size: 20px;
+}
+.Introduction_image{
+    text-align: center;
+}
+@keyframes fadein {
+    0% {opacity:0;}
+  100% {opacity:1;}
+
+}   
+.Introduction_buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+    
+}
+
+.Introduction_button1{
+    width:120px;
+    height:50px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 40px;
+    color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Introduction_button1:hover{
+    background-color: rgb(92, 59, 240);
+    transition-duration: 1s;
+    cursor:pointer;
+}
+.Introduction_button2{
+    width:120px;
+    height:50px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 40px;
+    color:white;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.Introduction_button2:hover{
+    background-color: rgb(46, 35, 97);
+    transition-duration: 1s;
+    cursor:pointer;
+}
