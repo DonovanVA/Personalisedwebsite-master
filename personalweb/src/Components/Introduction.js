@@ -9,7 +9,7 @@ export default function Introduction() {
     return (
         <div>
             <div className='Introduction1'>
-                <h1 className='Introduction_text'>Hi my name is Donovan, and I am an undergrad studying in NTU School of computer science and engineering</h1>
+                <h1 className='Introduction_text'>Hi my name is Donovan, and I am an undergrad studying in NTU School of Computer Science and Engineering</h1>
             </div>
             <div className='Introduction2'>
                 <h1 className='Introduction2_header'>About me</h1>
